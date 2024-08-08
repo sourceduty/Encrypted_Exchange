@@ -15,6 +15,7 @@ The program's simplicity and ease of use make it suitable for scenarios where se
 #
 ### User Instructions
 
+```
 Using the Program as a Sender:
 
 Select the "Sender" role in the program.
@@ -24,7 +25,8 @@ Follow these steps:
 Click "Step 1: Select File" to choose the .txt file you want to encrypt.
 Click "Step 2: Generate and Save Key" to create a symmetric key and save it to a .key file.
 Click "Step 3: Encrypt File" to encrypt the selected file using the generated key. The encrypted file will be saved with a .enc extension.
-
+```
+```
 Using the Program as a Receiver:
 
 Select the "Receiver" role in the program.
@@ -34,6 +36,7 @@ Follow these steps:
 Click "Step 1: Select Encrypted File" to choose the .enc file you want to decrypt.
 Click "Step 2: Select Key File" to load the corresponding .key file that was used for encryption.
 Click "Step 3: Decrypt File" to decrypt the selected file using the key. The decrypted file will be saved with a _decrypted.txt suffix.
+```
 
 #
 ### Program Topological Diagram
