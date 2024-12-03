@@ -13,6 +13,17 @@ When the recipient receives the encrypted file, they load the file along with th
 The program's simplicity and ease of use make it suitable for scenarios where secure file transfer is needed, but public key infrastructure (PKI) is not available or necessary. However, the security of the system relies heavily on the safe distribution and storage of the symmetric key. If the key is exposed or intercepted, the security of the encrypted data is compromised.
 
 #
+### AES Laws, Backdoors and Private Encryption
+
+![Private_Encryption](https://github.com/user-attachments/assets/11a14945-2f87-4d05-9ccc-d38e2277597d)
+
+AES was developed by the National Institute of Standards and Technology (NIST), a U.S. government agency, which was adopted as the U.S. federal standard for symmetric block encryption in 2001. AES is one of the most widely used cryptographic algorithms today. Concerns about potential backdoors in encryption algorithms developed by NIST are valid but unproven. Both the FBI and CIA have the potential means to force entry and break certain versions of AES encryption under specific circumstances, which would successfully decrypt modern-day 192-bit or 256-bit AES data.
+
+In many jurisdictions, refusing to comply with a lawful court order demanding access to encrypted data could result in criminal charges such as obstruction of justice, contempt of court, or violation of electronic surveillance laws. It's important to note that laws and regulations regarding encryption keys vary significantly across different countries, states, and jurisdictions. The specific consequences of refusing to disclose them will depend on the applicable legal framework in each case.
+
+Sourceduty can but hasn't developed it's own private encryption algorithm. Other companies might develop their own private encryption as well.
+
+#
 ### User Instructions
 
 ```
